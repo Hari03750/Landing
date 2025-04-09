@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prodigy Infotech Internship Registration</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Prodigy Infotech</h1>
+      <p>Your gateway to real-world tech experience</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>About the Internship</h2>
+      <p>
+        Join Prodigy Infotech’s internship program to gain practical skills in web development, data science, machine learning, and more. Work on real projects and get certified!
+      </p>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <div class="container">
+      <h2>Register Now</h2>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+
+        <label for="domain">Select Internship Domain</label>
+        <select id="domain" required>
+          <option value="">--Choose--</option>
+          <option value="web">Web Development</option>
+          <option value="ml">Machine Learning</option>
+          <option value="data">Data Science</option>
+          <option value="cloud">Cloud Computing</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Prodigy Infotech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
